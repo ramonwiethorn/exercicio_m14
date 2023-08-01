@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/exercicio/lib/bootstrap.min.css">
+    <style>
+        @media screen and (max-width: 600px) {
+        #cards {
+            display: block;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">    
+            <div class="carousel-inner">
+                
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100"src="https://img.freepik.com/fotos-gratis/menina-adolescente-feliz-jogando-beisebol_23-2148209546.jpg?w=996&t=st=1689885610~exp=1689886210~hmac=465896dc0d0089a148e3570181513ddc3a4a7f8f395aec19091c565af97c55e2" alt="">
+                    <div class="carousel-caption">
+                        <h2>Menina jogando beisebal</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100"src="https://img.freepik.com/fotos-gratis/homem-medindo-a-distancia-vista-frontal_23-2149530288.jpg?w=996&t=st=1689885624~exp=1689886224~hmac=296045bcdaf2b1c165b39211dd5026770cad06303d0c02dd0afc66417bde821d" alt="">
+                    <div class="carousel-caption">
+                        <h2>Homen medindo</h2>
+                    </div>
+                </div>              
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Bootstrap Cards</h1>
+        <div class="row">
+            <div class="col-4" id="cards">
+                <article class="card">
+                    <header class="card-header">
+                            Desemvovimento WEB
+                    </header>
+                        <img src="https://via.placeholder.com/100x100" alt="">
+                    <div class="card-body">
+                            <h4 class="card-title">Title card</h4>
+                            <h5 class="card-subtitle">Subtitle Card</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais</a>
+                        <footer class="card-footer">
+                            <time>Postado em 20/07/2023 às 17:30:00</time>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4" id="cards">
+                <article class="card">
+                    <header class="card-header">
+                            Desemvovimento WEB
+                    </header>
+                        <img src="https://via.placeholder.com/100x100" alt="">
+                    <div class="card-body">
+                            <h4 class="card-title">Title card</h4>
+                            <h5 class="card-subtitle">Subtitle Card</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais</a>
+                        <footer class="card-footer">
+                            <time>Postado em 20/07/2023 às 17:30:00</time>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4" id="cards">
+                <article class="card">
+                    <header class="card-header">
+                            Desemvovimento WEB
+                    </header>
+                        <img src="https://via.placeholder.com/100x100" alt="">
+                    <div class="card-body">
+                            <h4 class="card-title">Title card</h4>
+                            <h5 class="card-subtitle">Subtitle Card</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia Mais</a>
+                        <footer class="card-footer">
+                            <time>Postado em 20/07/2023 às 17:30:00</time>
+                        </footer>
+                    </div>
+                </article>
+            </div>
+        </div>
+    <script src="/exercicio/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
